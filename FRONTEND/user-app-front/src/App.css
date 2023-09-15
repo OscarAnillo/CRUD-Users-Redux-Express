@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.app-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* All Users */
+.all-users-map-div {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .6em auto;
+  padding: 1em;
+  position: relative;
+}
+.all-users-map-div > div:nth-child(1) {
+  text-align: left;
+}
+.all-users-map-div > div:nth-child(2) {
+  text-align: right;
+}
+.all-users-map-div h1 {
+  color: rgb(61, 92, 121);
+  font-style: italic;
+  font-weight: 700;
+}
+.map-div-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: .65rem;
+  position: absolute;
+  top: 3%;
+  right: 2.5%;
+
+}
+
+/* Create User */
+.all-div, .create-div {
+  width: 50%;
+}
+.create-div h1 {
+  padding: .2em;
+}
+.create-div form {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #eee;
+  width: 90%;
+  margin-left: 1.5em;
+  padding: 1em;
+  text-align: left;
+}
+.create-div form input {
+  border: none;
+  border-bottom: 1px solid #eee;
+  width: 30%;
+  margin: .5em;
+}
+.create-div form input::placeholder {
+  color: #969494;
+  font-family: 'Open Sans', sans-serif;
+}
+.create-div form button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 1em;
+  padding: .8em 1em;
+  text-transform: uppercase;
+  width: 15%;
+}
+/* Single User */
+.single-user-div {
+  width: 50%;
+}
+.single-user-div h1 {
+  padding: .2em 0;
+}
+.inner-single-user-div {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.inner-single-user-div > div:nth-child(1) {
+  text-align: left;
+}
+.inner-single-user-div > div:nth-child(2) {
+  text-align: right;
+}
